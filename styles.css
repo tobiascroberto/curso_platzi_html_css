@@ -1,16 +1,26 @@
 *{
+    box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color:blanchedalmond;
 }
 
 header {
     width: 80%;
     text-align: center;
     margin: 0 auto;
+    background-color: white;
 }
 
+nav {
+    height: 35px;
+}
 .header-nav {
     list-style: none;
     text-align: right;
+
 }
 
 
@@ -22,4 +32,15 @@ header {
     color: blue;
     font-weight: 700;
     text-decoration: none;
+    padding: 5px;
+    background-color: chartreuse;
+    border-radius: 5px;
+    margin-right:8px ;
+}
+
+.header-nav_item a:hover {
+    color: black;
+}
+.header-nav_item a:active {
+    color:brown;
 }
