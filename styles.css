@@ -1,0 +1,25 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header-nav {
+    list-style: none;
+    text-align: right;
+}
+
+
+.header-nav_item {
+    display: inline;    
+}
+
+.header-nav_item a {
+    color: blue;
+    font-weight: 700;
+    text-decoration: none;
+}
